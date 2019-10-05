@@ -3,6 +3,12 @@
  */
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const classProperties = require("@babel/core").transform("code", {
+    plugins: ["@babel/plugin-proposal-class-properties"]
+});
+
+const classpro = require('@babel/plugin-proposal-class-properties');
+// const pluginProposalClassProperties = require('@babel/plugin-proposal-class-properties');
 
 module.exports={
     entry: './app/index.js',

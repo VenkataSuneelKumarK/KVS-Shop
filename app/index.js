@@ -4,12 +4,15 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
+import SearchBox from './containers/searchBox';
+import App from './App';
 
 class KVSShop extends React.Component{
     render(){
         return (
             <React.Fragment>
-                Hurray React Initial Setup was successful
+                <App></App>
+                <SearchBox/>
             </React.Fragment>
         );
     }
