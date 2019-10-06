@@ -8,7 +8,9 @@ const input = (props) => {
     return (<input type={props.type}
                    value={props.value}
                    onChange={props.onChangeHandler}
-                   onKeyUp={props.keyUpHandler}/>);
+                   onKeyUp={props.keyUpHandler}
+                   className={props.className}
+            />);
 };
 
 export default input;

@@ -7,7 +7,7 @@ const footer = (props) => {
     "use strict";
     return (
         <React.Fragment>
-            Footer section
+            <p className={props.className}>Footer section</p>
         </React.Fragment>
     )
 };

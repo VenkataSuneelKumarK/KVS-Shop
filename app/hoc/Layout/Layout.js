@@ -4,14 +4,15 @@
 import React from 'react';
 import ToolBar from '../../components/Navigation/ToolBar/ToolBar';
 import Footer from '../../components/Footer/Footer';
+import  './Layout.css';
 
 class Layout extends React.Component{
     render(){
         return (
             <React.Fragment>
-                <ToolBar/>
+                <ToolBar className="toolBar"/>
                 Main body
-                <Footer></Footer>
+                <Footer className="footer"></Footer>
             </React.Fragment>
         )
     }

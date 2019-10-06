@@ -28,7 +28,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/components/SearchBox/searchBox.js">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/components/input.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/containers/searchBox.css">
           <value>
             <set />
           </value>
@@ -38,7 +48,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/hoc/Layout/Layout.css">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/hoc/Layout/Layout.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/hoc/Layout/Layout.scss">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/index.css">
           <value>
             <set />
           </value>

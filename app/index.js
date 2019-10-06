@@ -4,15 +4,15 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import SearchBox from './containers/searchBox';
+
 import App from './App';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 class KVSShop extends React.Component{
     render(){
         return (
             <React.Fragment>
                 <App></App>
-                <SearchBox/>
             </React.Fragment>
         );
     }

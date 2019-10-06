@@ -2,8 +2,8 @@
  * Created by kanamars on 04/10/19.
  */
 import React from 'react';
-import Input from '../components/input';
-
+import Input from '../Form Components/input';
+import "./searchBox.css";
 class SearchBox extends React.Component{
     state = {
         searchBoxValue : null,
@@ -27,10 +27,10 @@ class SearchBox extends React.Component{
     };
 
     render(){
-        return(<div>
-                <Input onChangeHandler = {this.searchBoxHandler}/>
-                {this.state.list.map((val,i)=> <p key={val+i}>{val}</p>)}
-                </div>
+        return(<React.Fragment>
+                <Input onChangeHandler = {this.searchBoxHandler} className="searchBox"/>
+                {/*{this.state.list.map((val,i)=> <p key={val+i}>{val}</p>)}*/}
+                </React.Fragment>
         )
     }
 }
