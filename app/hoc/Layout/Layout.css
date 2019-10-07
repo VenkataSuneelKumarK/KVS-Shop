@@ -18,7 +18,10 @@
   margin-bottom: 0;
   height: 75px;
 }
-
+.heading{
+    margin: 0 auto;
+    display: inline;
+}
 @media (max-width: 600px) {
    .toolBar{
      background-color: gold;

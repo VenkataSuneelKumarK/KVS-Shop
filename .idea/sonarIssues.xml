@@ -23,7 +23,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/components/Form Components/input.js">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/components/Navigation/ToolBar/ToolBar.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/components/SearchBox/searchBox.css">
           <value>
             <set />
           </value>
@@ -34,6 +44,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/components/input.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/containers/Products/Products.js">
           <value>
             <set />
           </value>
@@ -69,6 +84,21 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/index.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/store/Actions/actions.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/store/Reducers/productReducer.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/store/Reducers/reducer.js">
           <value>
             <set />
           </value>

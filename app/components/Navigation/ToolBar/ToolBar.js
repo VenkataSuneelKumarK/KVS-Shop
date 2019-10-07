@@ -7,8 +7,10 @@ const toolBar = (props) => {
     "use strict";
     return (
       <React.Fragment >
-          <p className={props.className}>
-              <span>KVS</span><SearchBox/></p>
+          <div className={props.className}>
+              <div className={props.heading}>KVS</div>
+              <SearchBox/>
+          </div>
 
       </React.Fragment>
     );

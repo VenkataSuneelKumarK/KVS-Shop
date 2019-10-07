@@ -10,8 +10,8 @@ class Layout extends React.Component{
     render(){
         return (
             <React.Fragment>
-                <ToolBar className="toolBar"/>
-                Main body
+                <ToolBar className="toolBar" heading="heading"/>
+                {this.props.children}
                 <Footer className="footer"></Footer>
             </React.Fragment>
         )
